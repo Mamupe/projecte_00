@@ -1,0 +1,91 @@
+{
+  "albumes": [
+    {
+      "id": 1,
+      "title": "Se habla español",
+      "year": "2006",
+      "songs": "20",
+      "img": "public/pictures/img01.jpg"
+    },
+
+    {
+      "id": 2,
+      "title": "Vine ví y me vendí",
+      "year": "2008",
+      "songs": "20",
+      "img": "public/pictures/img02.jpg"
+    },
+
+    {
+      "id": 3,
+      "title": "Directo a los huevos",
+      "year": "2009",
+      "songs": "39",
+      "img": "public/pictures/img03.jpg"
+    },
+    
+    {
+      "id": 4,
+      "title": "Crucificados por el antisistema",
+      "year": "2012",
+      "songs": "17",
+      "img": "public/pictures/img04.jpg"
+    },
+
+    {
+      "id": 5,
+      "title": "Cicatriz en la matrix",
+      "year": "2016",
+      "songs": "15",
+      "img": "public/pictures/img05.jpg"
+    },
+
+    {
+      "id": 6,
+      "title": "Podrán cortar la droga pero no la primavera",
+      "year": "2017",
+      "songs": "10",
+      "img": "public/pictures/img06.jpg"
+    },
+
+    {
+      "id":7,
+      "title": "Miedo a un planeta plano",
+      "year": "2020",
+      "songs": "4",
+      "img": "public/pictures/img07.jpg"
+    }
+  ],
+  "componentes": [
+    {
+      "id": 1,
+      "name": "Aitor Ibarretxe",
+      "rol": "Voz",
+      "img": "public/pictures/aitor.jpg"
+    },
+
+    {
+      "id": 2,
+      "name": "Iván Karmona ",
+      "rol": "Guitarra",
+      "img": "public/pictures/karmona.jpg"
+    },
+
+    {
+      "id": 3,
+      "name": "Jokin Garaikoetxea",
+      "rol": "Bajo",
+      "img": "public/pictures/jokin.jpg"
+    
+    },
+
+    {
+      "id": 4,
+      "name": "Potxeta Ardanza ",
+      "rol": "Batería",
+      "img": "public/pictures/potxeta.jpg"
+    }
+    
+  ]
+  
+}
