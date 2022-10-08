@@ -14,49 +14,65 @@
     color: inherit;
   }
   
-  /* PALETTE */
-  :root {
-    --background: #1d1107;
-    --primary: #f3f6f9;
-    --secondary: #ebac67;
-  }
 
-  @import url('https://fonts.googleapis.com/css2?family=Mina:wght@400;700&display=swap');
+
+
+
+
 
 
   nav {
     height: 30vh;
-    
+    font-size: xx-large;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     gap: 10rem;
     flex-wrap: wrap;
     background-image: url("./public/pictures/nav.jpg");
     background-size: cover;
     background-position: center center;
-  }
-
-  li {
-    text-align: right;
-    padding: 1rem;
-  }
-  .fotoalbum{
-    height: 250px;
-
-    width: 250px;
     
-    flex-direction: row;
+  }
+
+
+
+  
+
+  .fotoalbum{
+    
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 50vh;
+        
+        color: rgba(255, 255, 255, 0.626);
+        cursor: pointer;
+        flex: 0.5;
+        margin: 10px;
+        position: relative;
+        -webkit-transition: all 700ms ease-in;
+        
+      
+      
 
   }
   #AlbumContainer{
-    flex-direction: row;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    
   }
 body {
-background-image: url(./public/pictures/background.jpg);
+background: black;
 background-size: 100%;
 }
 nav > ul {
     display: flex;
     gap: 2rem;
   }
+
+footer {
+text-align: center;
+color:beige;
+}

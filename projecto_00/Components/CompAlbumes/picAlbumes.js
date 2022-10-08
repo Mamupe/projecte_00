@@ -11,7 +11,7 @@ const templatePic = (album) => {
     document.querySelector('#AlbumContainer').innerHTML +=
      `
 <div class="fotoalbum" style="background-image: url(${album.img})">
-  <h3>${album.title}</h3>
+
 </div>
 `
 
