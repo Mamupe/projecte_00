@@ -93,5 +93,17 @@ vertical-align: text-bottom;
 margin-top: 80px;
 }
 
+p{
+    text-align: center;
+    margin-top:23rem;
+}
+ .modal{
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 10rem;
+    height: 10rem;
+    color: white;
 
-
+ }
