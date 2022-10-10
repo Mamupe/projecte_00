@@ -34,3 +34,21 @@ for (const album of albumes) {
 }
 
 
+
+
+
+
+const AlbumContainer = document.querySelector('#AlbumContainer')
+
+AlbumContainer.addEventListener("click",()=>{
+
+    document.body.innerHTML += `
+    <div id="MyModal" class="modal">
+    
+    <span  class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+    <p></p>
+    </div>
+    `
+ 
+    
+}) 
